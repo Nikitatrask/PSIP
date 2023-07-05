@@ -1,0 +1,119 @@
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="resume.css">
+	<style>
+		body { 
+			background-color: #000 background="555.jpg"
+		}
+	</style>
+</head>
+
+<body>
+	
+	<div class="full">
+		<div class="left">
+			<div class="image">
+			    
+			</div>
+			<div class="�������� ������ ��������">
+				<h2>�������� ������ ��������</h2>
+				<img src="123.jpg" width="400" height="300">
+				
+			</div>
+			
+			<video
+             width="400"
+             height="300"
+             controls="controls"
+            >
+             <source
+              src="321123.mp4"	
+              />
+             </video>  
+			 <audio controls>
+			    <source src="fatality.mp3">
+			</audio>  
+			<div class="�����������">
+				<h2>�����������</h2>
+				<ul>
+					<li><b>����� ���������������� :
+					Python, �#, PASCAL</b></li>
+				</ul>
+			</div>
+			<div class="�����">
+				<h2>�����</h2>
+				<ul>
+					<li>����������</li>
+					<li>�������</li>
+					<li>����������</li>
+				</ul>
+			</div>
+			<div class="Hobbies">
+				<h2>�����</h2>
+				<ol>
+					<li>������</li>
+					<li>���������� ������</li>
+					<li>���������� ���</li>
+				</ol>
+			</div>
+			<table border="1" width="600">
+				<tr>
+					
+				  <td>������</td>
+				  <td>���</td>
+				  <td>����</td>
+				  <td>�������������</td>
+				  <td>�������</td>
+				</tr>
+				<tr>
+				  <td>���-36</td>
+				  <td>�������� �.�.</td>
+				  <td>3</td>
+				  <td>�����������</td>
+				  <td>18</td>
+				</tr>
+				<tr>
+				  <td>���-32</td>
+				  <td>�������� �.�.</td>
+				  <td>4</td>
+				  <td>�����������</td>
+				  <td>19</td>
+				</tr>
+				<tr>
+				  <td>���-32</td>
+				  <td>�������� �.�.</td>
+				  <td>4</td>
+				  <td>�����������</td>
+				  <td>19</td>
+				</tr>
+				<tr>
+				  <td>���-39</td>
+				  <td>������� �.�.</td>
+				  <td>1</td>
+				  <td>�����������</td>
+				  <td>17</td>
+				</tr>
+			  </table>
+			<form>
+				<fieldset>
+				<legend>����� ��� �������� ����� �� ����</legend>
+				<p><label for="name">���*</label><input type="text" id="name"></p>
+				<p><label for="email">E-mail</label><input type="email" id="email"></p>
+				</fieldset>
+				<p><input type="submit" value="���������"></p>
+			</form>
+			<p>� ������ ������ ��
+				<a href="https://www.youtube.com/@itproger">���� ����� � ��������� Unity3D</a>.
+			  </p>
+		</div>
+		<a href="#" title="��������� � ������" class="topbutton">^������</a>
+		
+	</div>
+</body>
+
+</html>

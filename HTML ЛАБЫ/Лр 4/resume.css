@@ -1,0 +1,106 @@
+body {
+    background-color: darkkhaki;
+}
+
+.fio {
+    text-align: center;
+    width: 500px;
+    margin-left: 500px;
+
+    transition: 3s all;
+}
+
+.fio:hover {
+    color: green;
+}
+
+.programmer {
+    border-radius: 60px;
+}
+
+.my-face {
+    padding-left: 300px;
+    width: 300px;
+}
+
+.my-face:hover {
+    transform: revert;
+}
+
+.language-programming {
+    font-family:'Gill Sans';
+    font-weight: bold;
+}
+
+.language {
+    text-align: center;
+    transition: 2s all;
+}
+
+.language:hover {
+    transform: scale(1.2);
+}
+
+.ability {
+    text-align: center;
+    transition: 2s all;
+}
+
+.ability:hover {
+    transform: scale(1.2);
+}
+
+.hobbies {
+    text-align: center;
+    transition: 2s all;
+}
+
+.hobbies:hover {
+    transform: scale(1.2);
+}
+
+.css-p {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.css-p2 {
+    color:darkblue;
+    font-weight: bold;
+}
+
+fieldset {
+    margin-right: 500px;
+    margin-left: 500px;
+    border: 3px dashed black;
+}
+
+table {
+        border-radius: 10px;
+        border: 1px solid #000;
+}
+
+.unity {
+    color: blue;
+    transition: 1s;
+}
+
+.unity:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.top-button {
+    font-size: 15pt;
+    z-index: 9999;
+    margin-left: 1400px;
+    background-color: white;
+    border: 1px dashed black;
+    text-decoration: none;
+    color: black;
+    transition: 1s;
+}
+
+.top-button:hover {
+    color: red;
+}

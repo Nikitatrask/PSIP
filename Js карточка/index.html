@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>temka JS lr1-3</title>
+        <link href="main.css" rel="stylesheet" type="text/css">
+        <script>
+            function getCurrentTime() {
+                var now = new Date();
+                var date = now.getDate();
+                var month = now.getMonth() + 1;
+        
+                var TimeInput = document.getElementById("date-month");
+                TimeInput.value = date + "." + month;
+        }
+        </script>
+    </head>
+    <body>
+        <script src="mainJS.js"></script>
+
+        <div class="container-wrapper">
+            <fieldset style="width: 200px;">
+                <button onclick="getCurrentTime();">Текущее время</button> <br>
+                <input id="date-month" type="text" value="" />
+            </fieldset>
+            
+            <div id="FIO">Трасковский Никита</div>
+            <br><br>
+
+            <fieldset style="width: 320px;">
+                Произведение положительных эл-ов массива:
+                <div>Массив:</div>
+                <input id="before" type="text" />
+            
+                <div>Произведение:</div>
+                <input id="after" type="text" />
+                <br><br>
+            
+                <button onclick="multiplyArray()">Сортировать</button>
+            </fieldset>
+            <br>
+
+            <fieldset style="width: 440px;">
+                Расчёт по функции
+                <div>x = </div>
+                <input type="text" id="x"/><br>
+                <div>Значение выражения:</div>
+	            <input type="text" id="result"><br><br>
+	            <button onclick="calculate()">Вычислить</button>
+            </fieldset>
+            <br>
+
+            <fieldset style="width: 480px;">
+                S1:   <input type="text" id="S1">
+                S2:   <input type="text" id="S2"><br><br>
+                Length of S1: <input type="text" id="length"><br><br>
+                Remove "Я": <input type="text" id="remove"><br><br>
+                Replace "и" on the "*": <input type="text" id="replace"><br><br>
+
+                <button onclick="process()">Обработать</button>
+            </fieldset>
+        </div>
+
+        <script>
+            var polytechId = document.getElementById("FIO").innerHTML;
+            var i = 0;
+            do {
+                window.alert(polytechId);
+                i++;
+            } while (i <= 4)
+
+            var numbers = [-10, -5, 8, -1, 6];
+            var mult = 1;
+
+            function multiplyArray() {
+                document.getElementById("before").value = numbers;
+                for (var i = 0; i < numbers.length; i++) {
+                    if (numbers[i] > 0) {
+                        mult *= numbers[i];
+                    }
+                }
+                document.getElementById("after").value = mult;
+            }
+            
+        </script>
+
+    </body>
+</html>

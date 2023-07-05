@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-futura-pt: "Futura PT";
+  --font-cera-pro: "Cera Pro";
+  --font-days-one: "Days One";
+
+  /* font sizes */
+  --font-size-base: 16px;
+  --font-size-xl: 20px;
+  --font-size-sm: 14px;
+  --font-size-lg: 18px;
+  --font-size-smi: 13px;
+  --font-size-45xl: 64px;
+  --font-size-17xl: 36px;
+  --font-size-29xl: 48px;
+  --font-size-13xl: 32px;
+  --font-size-6xl: 25px;
+  --font-size-21xl: 40px;
+  --font-size-5xl: 24px;
+  --font-size-11xl: 30px;
+  --font-size-9xl: 28px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-gainsboro-100: #e8e8e8;
+  --color-brown-100: #c83642;
+  --color-royalblue-100: #3758cb;
+  --color-crimson-100: #df3b4a;
+  --color-crimson-200: #c82132;
+  --color-slateblue: #2146c8;
+  --color-lightsteelblue-100: #b7bacb;
+  --color-whitesmoke-100: #f8f8f8;
+  --color-whitesmoke-200: #f2f2f2;
+  --color-darkslategray: #2b333e;
+  --color-firebrick-100: #ce4a38;
+  --color-firebrick-200: #bf1624;
+  --color-chocolate: #f58634;
+  --color-coral: #d76438;
+  --color-darkseagreen: #9dd3af;
+  --color-lightcoral: #de828a;
+  --color-mediumseagreen-100: #5cad78;
+  --color-mediumseagreen-200: #309e58;
+  --color-lavender: #e4e4ef;
+  --color-silver-100: #b6b6b6;
+  --color-gray: #282828;
+
+  /* border radiuses */
+  --br-8xs: 5px;
+  --br-6xs: 7px;
+  --br-mini: 15px;
+  --br-3xs: 10px;
+}

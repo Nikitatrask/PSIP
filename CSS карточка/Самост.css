@@ -1,0 +1,22 @@
+body {
+    font-family: 'Times New Roman', Times, serif;/* меняем шрифт*/
+    font-size: 16pt;
+    color:rgb(0, 166, 255);
+    background:url(photo_25-05-2018_12_36_33.jpg);/* вставляем фоновое изображение*/
+    background-repeat: no-repeat;
+}
+h3 {
+    text-decoration: line-through;
+    font-style: italic;
+    color:rgb(0, 255, 0);
+    text-align: left;/* выравниваем текст по правой стороне*/
+}
+a{
+    text-decoration: none;
+
+}
+a:hover{
+    color:rgb(0, 255, 0);
+    text-decoration: none;
+}
+

@@ -1,0 +1,14 @@
+body {
+    background-image: url("1.jpg");
+    
+}
+
+img{
+    
+    background-size: no-repeat;
+    margin-left: 45%;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+
+}

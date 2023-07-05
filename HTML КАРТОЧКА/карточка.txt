@@ -1,0 +1,14 @@
+<title>Шестакович Станислав Александрович</title>
+<link href="pagecss.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<ol type="a" start="11">
+<li>Зима</li>
+<li>Весна</li>
+<li>Лето</li>
+</ol>
+
+<figure>
+<img src="2.jpg" alt="Слон на фоне заката">
+<figcaption>Аниме тяночка</figcaption>
+</figure
